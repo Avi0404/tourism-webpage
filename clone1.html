@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour India</title>
+    <style>
+        /* Styles from the previous example... */
+
+        .places-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+            background-color: rgba(141, 181, 210, 0.5);
+        }
+
+        .place-card {
+            width: 30%;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            background-color: rgb(130, 204, 216);
+        }
+
+        .place-card:hover {
+            transform: scale(1.05);
+        }
+
+        .place-image {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+        }
+
+        .place-details {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header and Navigation from the previous example... -->
+
+    <section class="places-section">
+        <div class="place-card">
+            <img class="place-image" src="https://i.guim.co.uk/img/media/6c36faa8209eb3195c80f7ada81caa4892479b53/0_276_5000_3000/master/5000.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=f0444f7c031eea8232c44c59ff568ffe" alt="Place 1 Image">
+            <div class="place-details">
+                <h3>Taj Mahal, Agra</h3>
+                <p>The Taj Mahal is an iconic symbol of love, located in Agra, Uttar Pradesh. It was built by the Mughal Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal. The white marble mausoleum is a UNESCO World Heritage Site and a marvel of architectural beauty.</p>
+            </div>
+        </div>
+        
+        <!-- Place 2 -->
+        <div class="place-card">
+            <img class="place-image" src="https://media.istockphoto.com/id/1135820309/photo/amber-fort-and-maota-lake-jaipur-rajasthan-india.jpg?s=612x612&w=0&k=20&c=raUKDB1Mris9Z7SjvuuTieZRzF2-CaKukGvTC8t1kuo=" alt="Place 2 Image">
+            <div class="place-details">
+                <h3>Jaipur, Rajasthan</h3>
+                <p>Jaipur, also known as the Pink City, is the capital of Rajasthan. It is famous for its vibrant culture, stunning architecture, and colorful markets. Explore historical forts like Amer Fort, visit the City Palace, and experience the rich heritage of Rajasthan.</p>
+            </div>
+        </div>
+        
+        <!-- Place 3 -->
+        <div class="place-card">
+            <img class="place-image" src="https://imgeng.jagran.com/images/2023/jul/goa1689842917048.jpg" alt="Place 3 Image">
+            <div class="place-details">
+                <h3>Goa Beaches</h3>
+                <p>Goa, a coastal state in western India, is renowned for its beautiful beaches, vibrant nightlife, and Portuguese-influenced architecture. Relax on the sandy shores, enjoy water sports, and experience the unique blend of Indian and Western cultures.</p>
+            </div>
+        </div>
+      
+        <div class="place-card">
+            <img class="place-image" src="https://i.pinimg.com/originals/f6/c4/a9/f6c4a99dceef8a156947a1ff21fc3e4d.jpg" alt="Place 3 Image">
+            <div class="place-details">
+                <h3>Kerala</h3>
+                <p>Kerala, often referred to as "God's Own Country," is a mesmerizing destination in southern India that boasts a diverse array of picturesque landscapes, rich cultural heritage, and a serene atmosphere. One of the key attractions in Kerala is the tranquil backwaters, a network of interconnected rivers, lakes, and canals, where traditional houseboats offer a unique and peaceful cruising experience. </p>
+            </div>
+        </div>
+        <div class="place-card">
+            <img class="place-image" src="https://cdn.britannica.com/53/143553-050-C7E9D573/Keshava-Temple-Somanathapura-Karnataka-India.jpg" alt="Place 3 Image">
+            <div class="place-details">
+                <h3>Karnataka</h3>
+                <p>Karnataka, located in the southern part of India, is a state known for its diverse cultural heritage, lush landscapes, and historic significance. The state boasts a plethora of visitable places that cater to various interests. One of the most iconic destinations is Mysuru, renowned for the grand Mysuru Palace and the vibrant Dasara festival. The capital city, Bengaluru, often referred to as the Silicon Valley of India, combines modernity with a rich history, offering a blend of technology parks, vibrant markets, and historical landmarks like Vidhana Soudha.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+</html>
